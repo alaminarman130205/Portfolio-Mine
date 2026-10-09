@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>T.M. Alamin — Data Scientist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-container">
+      <a href="#" class="logo">T.M. ALAMIN</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills-viz">Live Visuals</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact" class="btn-primary">Let's talk →</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="about">
+    <div class="container">
+      <div class="hero-content">
+        <h1>T.M. Alamin</h1>
+        <h2>Data Scientist & Applied Statistician</h2>
+        <p class="hero-summary">
+          Data-driven specialist with an MSc in Applied Statistics and Data Science. Proven expertise in collecting, cleaning, and analyzing structured datasets to drive business insights, forecasting, and strategic decision-making. Experienced in bridging the gap between stakeholders, development teams, and management through rigorous exploratory data analysis, predictive modeling, and robust project documentation.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">View my work</a>
+          <a href="#contact" class="btn-secondary">Get in touch</a>
+        </div>
+      </div>
+      
+      <!-- Interactive Hero Graphic -->
+      <div class="hero-visual">
+        <canvas id="heroChart"></canvas>
+      </div>
+    </div>
+  </header>
+
+  <!-- Live Visuals Section -->
+  <section class="section" id="skills-viz">
+    <div class="container">
+      <div class="section-header">
+        <h2>Data Science Capabilities</h2>
+        <p>An interactive look at my core competencies and tool stack.</p>
+      </div>
+      
+      <div class="visuals-grid">
+        <div class="visual-card">
+          <h3>Technical Skill Mastery</h3>
+          <div class="chart-container">
+            <canvas id="skillsRadarChart"></canvas>
+          </div>
+        </div>
+        <div class="visual-card">
+          <h3>Analytics Focus Areas</h3>
+          <div class="chart-container">
+            <canvas id="domainDoughnutChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <h2>Professional Experience</h2>
+        <p>Turning raw data into strategic decisions and actionable insights.</p>
+      </div>
+      
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="date">Jan 2026 - May 2026</span>
+            <span class="company">Orange BD LTD</span>
+          </div>
+          <div class="timeline-content">
+            <h3>Jr Business Analyst</h3>
+            <ul>
+              <li>Acted as a bridge between stakeholders, the development team, and management to translate terms of reference into structured project documentation.</li>
+              <li>Conducted gap analysis to identify process and requirement gaps, actively supporting viable business solutions.</li>
+              <li>Tracked requirements updates, project feedback, and development progress in ClickUp to optimize collaboration across business, development, and QA teams.</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="date">Oct 2024 - Dec 2025</span>
+            <span class="company">Synnax Lab</span>
+          </div>
+          <div class="timeline-content">
+            <h3>Data Scientist</h3>
+            <ul>
+              <li>Extracted daily business data via APIs and performed data cleaning, missing value handling, outlier treatment, and categorical encoding using Python.</li>
+              <li>Conducted Exploratory Data Analysis (EDA) on quarterly datasets using single and multi-variable visualizations to uncover seasonality, trends, and business indicators.</li>
+              <li>Applied statistical analysis, correlation analysis, feature engineering, and model evaluation to significantly improve forecasting reliability.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2>Key Projects & Research</h2>
+        <p>A selection of predictive modeling and analytical projects.</p>
+      </div>
+      
+      <div class="projects-grid">
+        <a href="https://github.com/alaminarman130205/synnax_project" target="_blank" class="project-card">
+          <div class="project-tag">Machine Learning</div>
+          <h3>Open Polymer Prediction (NeurIPS 2025)</h3>
+          <p>Developed a machine learning solution for the NeurIPS Open Polymer Prediction 2025 competition to accurately predict key polymer properties from molecular structure data represented in SMILES notation.</p>
+          <span class="project-link">View Project →</span>
+        </a>
+        
+        <a href="https://github.com/alaminarman130205/power-bi-projects" target="_blank" class="project-card">
+          <div class="project-tag">Data Visualization</div>
+          <h3>Power BI Analytics Dashboards</h3>
+          <p>Interactive business intelligence dashboards providing comprehensive visual analysis of organizational data for strategic decision making.</p>
+          <span class="project-link">View Project →</span>
+        </a>
+        
+        <a href="https://github.com/alaminarman130205/quantitative_research_asthe_effectof_covid-19_on_student" target="_blank" class="project-card">
+          <div class="project-tag">Statistical Analysis</div>
+          <h3>COVID-19 Impact Quantitative Research</h3>
+          <p>Rigorous statistical research evaluating the quantitative effect of the COVID-19 pandemic on students, utilizing hypothesis testing and regression models.</p>
+          <span class="project-link">View Project →</span>
+        </a>
+        
+        <a href="https://github.com/alaminarman130205/data_explorating_sql" target="_blank" class="project-card">
+          <div class="project-tag">Data Engineering</div>
+          <h3>SQL Data Exploration</h3>
+          <p>Advanced SQL queries for exploratory data analysis, encompassing complex joins, window functions, and data transformations on large datasets.</p>
+          <span class="project-link">View Project →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education & Achievements Section -->
+  <section class="section alt-bg" id="education">
+    <div class="container">
+      <div class="split-layout">
+        <div class="split-col">
+          <div class="section-header">
+            <h2>Education</h2>
+          </div>
+          <div class="edu-card">
+            <h3>MSc in Applied Statistics and Data Science</h3>
+            <p class="institution">Jahangirnagar University</p>
+            <p class="year">2025 | CGPA: 3.25</p>
+          </div>
+          <div class="edu-card">
+            <h3>BSc in Computer Science and Engineering</h3>
+            <p class="institution">Institute of Science Trade and Technology</p>
+            <p class="year">2023 | CGPA: 2.8</p>
+          </div>
+        </div>
+        
+        <div class="split-col">
+          <div class="section-header">
+            <h2>Key Achievements</h2>
+          </div>
+          <div class="achievement-card">
+            <div class="icon">🏆</div>
+            <div>
+              <h3>Prominent Rank</h3>
+              <p>Kaggle Competition</p>
+            </div>
+          </div>
+          <div class="achievement-card">
+            <div class="icon">🥇</div>
+            <div>
+              <h3>Contest Winner</h3>
+              <p>University Programming Contest</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="container contact-container">
+      <h2>Let's build something data-driven.</h2>
+      <p>Whether you need predictive modeling, business analytics, or comprehensive data strategy, I'm open to new opportunities.</p>
+      
+      <div class="contact-links">
+        <a href="mailto:alamintm130205@gmail.com" class="contact-card">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">alamintm130205@gmail.com</span>
+        </a>
+        <a href="tel:+8801785708607" class="contact-card">
+          <span class="contact-label">Phone</span>
+          <span class="contact-value">+8801785708607</span>
+        </a>
+        <a href="https://www.linkedin.com/in/tm-alamin-arman" target="_blank" class="contact-card">
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">TM Alamin Arman</span>
+        </a>
+        <a href="https://github.com/alaminarman130205" target="_blank" class="contact-card">
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">alaminarman130205</span>
+        </a>
+      </div>
+      <p class="location-text">📍 153, Ahmednagar, Mirpur 1216, Dhaka</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2026 T.M. Alamin. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
